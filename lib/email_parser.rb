@@ -9,4 +9,3 @@ class EmailAddressParser(email_addresses)
   emails = email_addresses.split(/:*/)
   emails.uniq
 end
-end

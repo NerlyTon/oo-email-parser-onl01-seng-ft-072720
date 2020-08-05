@@ -21,3 +21,4 @@ class EmailAddressParser(email_addresses)
   emails.flatten.uniq
 end
 end
+end

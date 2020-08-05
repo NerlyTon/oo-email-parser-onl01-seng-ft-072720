@@ -22,3 +22,4 @@ class EmailAddressParser(email_addresses)
 end
 end
 end
+end

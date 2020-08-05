@@ -6,7 +6,7 @@
 class EmailAddressParser(email_addresses)
   attr_accessor :emails
   
-  emails = email_addresses.split("," && " ")
+  emails = email_addresses.split(/:*/)
   emails.uniq
 end
 end

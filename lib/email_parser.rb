@@ -16,7 +16,7 @@ class EmailAddressParser(email_addresses)
   
   def parse
     
-  emails = email_addresses.split(/:*/)
-  emails.uniq
+  # emails = email_addresses.split(/:*/)
+  # emails.uniq
 end
 end
